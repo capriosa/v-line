@@ -5,8 +5,8 @@ const ProductGrid = ({ products }) => {
 
   return (
     <div>
-      {products.map((product) => (
-        <Product key={product.id} {...product} />
+      {products.map((product, index) => (
+        <Product className={`${index % 2 === 0 ? "reverse": "" }`} key={product.id} {...product} />
       ))}
     </div>
   );

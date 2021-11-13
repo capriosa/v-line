@@ -4,32 +4,172 @@ body {
   font-size: 1em;
 }
 
-header, main, #__next {
-  width: 1310px;
+main, #__next {
   display: grid;
   place-items: center;
-  margin: 24px auto;
 }
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background: url(/two-words.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  height: 75vh;
+  width: 100vw;
+}
+
+.bg-box {
+  margin:150px 0;
+}
+
+.two-words {
+  color: #fff;
+  display: inline-block;
+  padding: 3px;
+}
+
+.Brick.two-words {
+  background-color: #aa351f;
+}
+
+.Brick.headline {
+  color: #aa351f;
+}
+
+svg.Brick {
+  fill: #aa351f;
+}
+
+header span.Brick {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #aa351f;
+}
+
+.Black.two-words {
+  background-color: #000;
+}
+
+.Black.headline {
+  color: #000;
+}
+
+svg.Black {
+  fill: #000;
+}
+
+.Navy.two-words {
+  background-color: #181c2d;
+}
+
+.Navy.headline {
+  color: #181c2d;
+}
+
+svg.Navy {
+  fill: #181c2d;
+}
+
+.Mauve.two-words {
+  background-color: #dc9389;
+}
+
+.Mauve.headline {
+  color: #dc9389;
+}
+
+svg.Mauve {
+  fill: #dc9389;
+}
+
+.Dusty.two-words {
+  background-color: #a7bab1;
+}
+
+.Dusty.headline {
+  color: #a7bab1;
+}
+
+svg.Dusty {
+  fill: #a7bab1;
+}
+
+.products-headline {
+  width: 373px;
+  height: 820px;
+  background-color: #dc9389;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  top: 509px;
+  opacity: 0.5;
+  padding: 24px;
+}
+
+
 
 .flex {
   display: flex;
-  column-gap: 24px;
-  margin: 48px;
+  gap: 12px;
+  margin-bottom: 5px;
+ 
 }
 
-.product-wrapper:after {
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.reverse .headline {
+  left: 690px;
+}
+
+.bg-box img {
+  left: -140px !important;
+  top: 250px !important;
+  padding-bottom: 140px;
+}
+
+.headline {
+  position: absolute;
+  left: 421px;
+  text-align: right;
+}
+
+.headline:after {
   content: " ";
-  width: 400px;
-  height: 300px;
+  width: 800px;
+  height: 500px;
   background-color: cornflowerblue;
+  display: block;
+  margin-top: 24px;
 }
 
 .col {
   flex-direction: column;
+  justify-content: center;
+  height: 450px;
+  gap: 24px;
+  background: #bdd1c8;
+  padding: 40px;
+  margin-top: 150px;
+  margin-left: 304px;
+}
+
+.reverse .col {
+  position: relative;
+  left: -187px;
 }
 
 .like {
-  width: 18px;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 7px;
 }
 
 .logo {
