@@ -1,14 +1,16 @@
 function TermsPage() {
   return (
-    <div className="max-w-2xl mx-auto prose prose-blue">
-      <h2>What’s your return policy?</h2>
+    <article>
+    <h1 className="products-headline">Terms of sale</h1>
+    <div className="article">
+    <h2>Headline</h2>
       <p>
         We don’t offer returns and exchanges, but if there’s something wrong
         with your order, please let us know by contacting us at [insert your
         support email here]!
       </p>
 
-      <h2>Do you offer refunds?</h2>
+      <h3>Do you offer refunds?</h3>
       <p>
         Refunds are only offered to customers that receive the wrong items or
         damaged items. If any of these apply, please contact us at [insert your
@@ -16,7 +18,7 @@ function TermsPage() {
         that out for you.
       </p>
 
-      <h2>Can I exchange an item for a different size/color?</h2>
+      <h3>Can I exchange an item for a different size/color?</h3>
       <p>
         At this time, we don't offer exchanges. If you’re unsure which size
         would fit better, check out our sizing charts—we have one for every item
@@ -27,6 +29,7 @@ function TermsPage() {
         the mislabeled item, and we’ll send you a new one, or issue a refund!
       </p>
     </div>
+    </article>
   );
 }
 

@@ -7,14 +7,13 @@ const WishlistPage = () => {
 
   return (
     <>
-      <div className="text-center pb-6 md:pb-12">
-        <h1 className="text-xl md:text-3xl lg:text-5xl font-bold">Wishlist</h1>
-      </div>
+        <h1 className="products-headline">Wishlist</h1>
+      
 
       {hasItems ? (
         <ProductGrid products={items} />
       ) : (
-        <p className="text-center text-gray-500">Your list is empty</p>
+        <p>Your list is empty</p>
       )}
     </>
   );
