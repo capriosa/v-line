@@ -73,7 +73,7 @@ const Layout = ({ children }) => {
         </div>
       </header>
       
-        <div>{children}</div>
+        <div className="children">{children}</div>
       
       <footer className="max-w-6xl mx-auto px-6">
         <div className="py-6 border-t border-gray-100 text-center flex flex-col md:flex-row items-center justify-between">
