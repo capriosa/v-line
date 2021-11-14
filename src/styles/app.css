@@ -2,6 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
+}
+
+.stencil {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+nav {
+  position: fixed;
 }
 
 main, #__next {
@@ -14,6 +24,19 @@ header {
   height: 100vh;
   background: url(/two-words.jpg) 0 0 no-repeat;
   background-size: cover;
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #fff;
+  padding: 40px 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #181c2d;
+  transition: all ease-in 0.3s;
+}
+
+a:hover {
+  color:#aa351f
 }
 
 .hero {
@@ -109,15 +132,17 @@ svg.Dusty {
   top: 509px;
   opacity: 0.5;
   padding: 24px;
+  font-size: 2rem;
 }
-
-
 
 .flex {
   display: flex;
   gap: 12px;
   margin-bottom: 5px;
- 
+}
+
+header .flex {
+  gap: 24px;
 }
 
 .reverse {
@@ -125,19 +150,24 @@ svg.Dusty {
 }
 
 .reverse .headline {
-  left: 690px;
+  left: 713px;
 }
 
 .bg-box img {
   left: -140px !important;
   top: 250px !important;
-  padding-bottom: 140px;
+  padding-bottom: 140px !important;
+  
 }
 
 .headline {
   position: absolute;
   left: 421px;
   text-align: right;
+}
+
+.reverse .headline {
+  text-align: left;
 }
 
 .headline:after {
@@ -147,6 +177,7 @@ svg.Dusty {
   background-color: cornflowerblue;
   display: block;
   margin-top: 24px;
+  box-shadow: 0 45px 90px rgba(166,166,162,.72)
 }
 
 .col {
@@ -154,15 +185,15 @@ svg.Dusty {
   justify-content: center;
   height: 450px;
   gap: 24px;
-  background: #bdd1c8;
+  background: #f7ede1;
   padding: 40px;
   margin-top: 150px;
-  margin-left: 304px;
+  margin-left: 282px;
 }
 
 .reverse .col {
   position: relative;
-  left: -187px;
+  left: -189px;
 }
 
 .like {

@@ -12,11 +12,13 @@ type IndexPageProps = {
   products: PrintfulProduct[];
 };
 
+
+
 const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
   <>
     
       <h1 className="products-headline">
-        All Products
+        Top Products
       </h1>
     
 

@@ -11,10 +11,12 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css"
           />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-            rel="stylesheet"
-          />
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+          <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Source+Sans+Pro&display=swap" rel="stylesheet" /> 
+          <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet"/> 
         </Head>
         <body className="antialiased">
           <Main />

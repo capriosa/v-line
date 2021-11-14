@@ -3,6 +3,8 @@ import Link from "next/link";
 import useWishlistState from "../hooks/useWishlistState";
 import useSnipcartCount from "../hooks/useSnipcartCount";
 
+
+
 const Layout = ({ children }) => {
   const { hasItems } = useWishlistState();
   const { cart } = useSnipcartCount();
@@ -16,7 +18,7 @@ const Layout = ({ children }) => {
             <div className="md:w-1/3">
               <nav className="flex items-center justify-start space-x-3 md:space-x-6">
               <Link href="/">
-                  <a className="text-gray-800 hover:text-blue-600 p-1 transition">
+                  <a className="stencil">
                     Two/Words
                   </a>
                 </Link>
@@ -30,14 +32,7 @@ const Layout = ({ children }) => {
                     Terms of Sale
                   </a>
                 </Link>
-              </nav>
-            </div>
-            <div className="flex">
-              
-            </div>
-            <div className="md:w-1/3 flex items-center justify-end space-x-3 -mr-2.5">
-              
-              <Link href="/wishlist">
+                <Link href="/wishlist">
                 <a
                   className="px-2 text-gray-800 hover:text-blue-600 rounded-md cursor-pointer focus:outline-none focus:text-blue-600 relative transition"
                   aria-label="Wishlist"
@@ -71,27 +66,17 @@ const Layout = ({ children }) => {
                   <path d="M4 16V4H2V2h3a1 1 0 0 1 1 1v12h12.438l2-8H8V5h13.72a1 1 0 0 1 .97 1.243l-2.5 10a1 1 0 0 1-.97.757H5a1 1 0 0 1-1-1zm2 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
                 </svg>
               </div>
+              </nav>
             </div>
+            
           </div>
         </div>
       </header>
-      <main className="py-6 md:py-12">
+      <section className="py-6 md:py-12">
         <div className="max-w-6xl mx-auto px-6">{children}</div>
-      </main>
+      </section>
       <footer className="max-w-6xl mx-auto px-6">
         <div className="py-6 border-t border-gray-100 text-center flex flex-col md:flex-row items-center justify-between">
-          <p className="text-gray-600 text-sm">
-            Powered by
-            <a
-              href="https://headlessdropshipping.com"
-              title="Learn more about how this site was made"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-0.5 text-gray-800 hover:text-blue-600"
-            >
-              Headless Dropshipping Starter
-            </a>
-          </p>
           <nav className="flex items-center justify-end space-x-3 md:space-x-6">
             <Link href="/about">
               <a className="text-gray-800 hover:text-blue-600 p-1 transition text-sm">

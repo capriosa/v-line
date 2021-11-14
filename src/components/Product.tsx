@@ -57,7 +57,7 @@ const Product = (product) => {
       </div>
       <div className="flex col">
               <div className="text-center">
-          <p className="mb-1 font-semibold text-gray-900">Two Words: <span className={`${activeVariant.name} two-words`}>{twoWords}</span>
+          <p className="mb-1 font-semibold text-gray-900">Two Words: <span className={`${activeVariant.name} stencil two-words`}>{twoWords}</span>
           <span
         aria-label="Add to wishlist"
         className="appearance-none absolute top-0 right-0 mt-3 mr-3 text-gray-300 focus:text-gray-500 hover:text-red-500 transition focus:outline-none"
