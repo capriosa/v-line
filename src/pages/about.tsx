@@ -9,24 +9,24 @@ function TermsPage() {
       <p>
         Build your own Headless eCommerce storefront with Next.js and Snipcart,
         and deliver swag powered by Printful. End to end com, styled using
-        TailwindCSS and deployed on Vercel.
+        TailwindCSS and deployed on Netlify.
       </p>
       <p>
         Build your own Headless eCommerce storefront with Next.js and Snipcart,
         and deliver swag powered by Printful. End to end commerce, styled using
-        TailwindCSS and deployed on Vercel.
+        TailwindCSS and deployed on Netlify.
       </p><p>
         Build your own Headless eCommerce storefront with Next.js and Snipcart,
         and deliver swag powered by Printful. End to end commerce, styled using
-        TailwindCSS and deployed on Vercel.
+        TailwindCSS and deployed on Netlify.
       </p><p>
         Build your own Headless eCommerce storefront with Next.js and Snipcart,
         and deliver swag powered by Printful. End to end commerce, styled using
-        TailwindCSS and deployed on Vercel.
+        TailwindCSS and deployed on Netlify.
       </p><p>
         Build your own Headless eCommerce storefront with Next.js and Snipcart,
         and deliver swag powered by Printful. End to end commerce, styled using
-        TailwindCSS and deployed on Vercel.
+        TailwindCSS and deployed on Netlify.
       </p>
       
     </article>

@@ -1,6 +1,6 @@
 # [Headless Dropshipping Starter](https://headlessdropshipping.com)
 
-🧦 Build your own Headless eCommerce storefront with [Next.js](https://nextjs.org/) and [Snipcart](https://snipcart.com/), and deliver swag powered by [Printful](https://printful.com/). End to end commerce, styled using [Tailwind CSS](https://tailwindcss.com/) and deployed on [Vercel](https://vercel.com/).
+🧦 Build your own Headless eCommerce storefront with [Next.js](https://nextjs.org/) and [Snipcart](https://snipcart.com/), and deliver swag powered by [Printful](https://printful.com/). End to end commerce, styled using [Tailwind CSS](https://tailwindcss.com/) and deployed on [Netlify](https://Netlify.com/).
 
 [Demo](https://demo.headlessdropshipping.com) &middot; [Watch video demo](https://www.youtube.com/watch?v=epcysiCJ3l4) &middot; [Learn more](https://headlessdropshipping.com)
 
@@ -201,7 +201,7 @@ With Snipcart you can invite multiple users to your account, configure your invo
 
 You'll need your `PRINTFUL_API_KEY` and `NEXT_PUBLIC_SNIPCART_API_KEY` to deploy.
 
-<a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fnotrab%2Fheadless-dropshipping-starter&env=PRINTFUL_API_KEY,NEXT_PUBLIC_SNIPCART_API_KEY" target="_blank" rel="noopener noreferrer"><img src="https://vercel.com/button" alt="Deploy with Vercel" /></a>
+<a href="https://Netlify.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fnotrab%2Fheadless-dropshipping-starter&env=PRINTFUL_API_KEY,NEXT_PUBLIC_SNIPCART_API_KEY" target="_blank" rel="noopener noreferrer"><img src="https://Netlify.com/button" alt="Deploy with Netlify" /></a>
 
 ## Running locally
 
