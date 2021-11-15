@@ -22,6 +22,11 @@ const Layout = ({ children }) => {
                     Two/Words
                   </a>
                 </Link>
+                <Link href="/all-products">
+                  <a className="text-gray-800 hover:text-blue-600 p-1 transition">
+                    All Products
+                  </a>
+                </Link>
                 <Link href="/about">
                   <a className="text-gray-800 hover:text-blue-600 p-1 transition">
                     About
@@ -55,7 +60,7 @@ const Layout = ({ children }) => {
                 aria-label="Cart"
               >
                 {cartHasItems && (
-                  <span className="Brick bg-blue-600 rounded-full w-2 h-2 top-0 right-0 -mt-1 -mr-1"></span>
+                  <span className="cart-count">{cart.items.count}</span>
                 )}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

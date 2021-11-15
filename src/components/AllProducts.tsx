@@ -6,7 +6,7 @@ import useWishlistState from "../hooks/useWishlistState";
 
 import VariantPicker from "./VariantPicker";
 
-const Product = (product) => {
+const AllProducts = (product) => {
   
   const { addItem } = useWishlistDispatch();
   const { isSaved } = useWishlistState();
@@ -115,4 +115,4 @@ const Product = (product) => {
   );
 };
 
-export default Product;
+export default AllProducts;
