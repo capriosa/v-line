@@ -11,7 +11,7 @@ const WishlistPage = () => {
       
 
       {hasItems ? (
-        <ProductGrid products={items} />
+        <ProductGrid products={items} grid={false}/>
       ) : (
         <p>Your list is empty</p>
       )}

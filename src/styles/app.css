@@ -22,6 +22,11 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+.grid h2 {
+  font-size: 1.25rem;
+  padding: 6px;
+}
+
 .stencil {
   font-family: 'Allerta Stencil', sans-serif;
 }
@@ -31,7 +36,7 @@ h2 {
 
 
 
-.bg-box button, .bg-box select {
+main button, main select {
   background-color: initial;
 background-image: linear-gradient(-180deg, #FF7E31, #FF7E31);
 border-radius: 6px;
@@ -56,9 +61,10 @@ transition: all ease-in 0.5s;
   -moz-appearance: auto;
   /*Firefox */
   appearance: auto;
+  margin-bottom: 12px;
 }
 
-.bg-box button:hover, .bg-box select:hover {
+main button:hover, main select:hover {
   background-image: linear-gradient(-180deg,#E62C03, #FF7E31);
 }
 
@@ -228,7 +234,6 @@ svg.Dusty {
 .flex {
   display: flex;
   gap: 12px;
-  margin-bottom: 5px;
 }
 
 header .flex {
@@ -285,6 +290,25 @@ header .flex {
   position: relative;
   left: -189px;
   padding: 45px;
+}
+
+.grid {
+  width: 45vw;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 36px;
+}
+
+.cart-bottom {
+  padding: 12px;
+  background-color: #f7ede1;
+  justify-content: center;
+}
+
+.grid .product-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 .like {

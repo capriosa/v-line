@@ -1,8 +1,8 @@
 import Product from "./Product";
 
-const ProductGrid = ({ products }) => {
+const ProductGrid = ({ products, grid }) => {
   if (!products || products.length === 0) return null;
-
+  
   return (
     <>
     <article>
@@ -33,9 +33,10 @@ const ProductGrid = ({ products }) => {
       </p>
       </div>
     </article>
-    <div className="products">
+    
+    <div className={`products ${grid === false ? "" : "flex grid"}`}>
       {products.map((product, index) => (
-        <Product className={`${index % 2 === 0 ? "reverse": "" }`} key={product.id} {...product} />
+        <Product grid={grid} className={`${index % 2 === 0 && !grid ? "reverse": "" }`} key={product.id} {...product} />
       ))}
     </div>
     </>
