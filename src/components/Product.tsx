@@ -44,12 +44,12 @@ const Product = (product) => {
       <div>
       <div className="product-wrapper">
       
-      <h2 className={`${activeVariant.name} `}>{title}</h2>
+      <h2 className={`${activeVariant.name}`}>{title}</h2>
       {activeVariantFile && (
         <Image
           src={activeVariantFile.preview_url}
-          width={400}
-          height={400}
+          width={450}
+          height={450}
           alt={`${activeVariant.name} ${name}`}
           title={`${activeVariant.name} ${name}`}
           className="product-image"

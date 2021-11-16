@@ -34,7 +34,7 @@ const ProductGrid = ({ products, grid }) => {
       </div>
     </article>
     
-    <div className={`products ${grid === false ? "" : "flex grid"}`}>
+    <div className={`products ${grid === false ? "" : "grid"}`}>
       {products.map((product, index) => (
         <Product grid={grid} className={`${index % 2 === 0 && !grid ? "reverse": "" }`} key={product.id} {...product} />
       ))}

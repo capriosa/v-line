@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
   const cartHasItems = cart.items.count !== 0;
 
   return (
+    <>
     <main>
       <header className="py-6 md:py-12">
         <div className="max-w-9xl mx-auto px-6">
@@ -77,6 +78,7 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </header>
+      </main>
       
         <div className="children">{children}</div>
       
@@ -92,7 +94,7 @@ const Layout = ({ children }) => {
           </nav>
         </div>
       </footer>
-    </main>
+    </>
   );
 };
 
