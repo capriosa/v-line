@@ -254,7 +254,7 @@ header .flex {
 }
 
 .bg-box img {
-  top: 150px !important;
+  top: 200px !important;
   padding-bottom: 140px !important;
   
 }
@@ -287,14 +287,15 @@ header .flex {
   background: #f7ede1;
   padding: 44px;
   margin-top: 150px;
-  margin-left: 131px;
+  margin-left: 198px;
   position: relative;
 }
 
 .reverse .col {
   position: relative;
-  left: -468px;
+  left: -533px;
   padding: 45px;
+  min-width: 326px;
 }
 
 .grid {

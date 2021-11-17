@@ -7,7 +7,7 @@ import useWishlistState from "../hooks/useWishlistState";
 import VariantPicker from "./VariantPicker";
 
 const Product = (product) => {
-  
+  console.log(product)
   const { addItem } = useWishlistDispatch();
   const { isSaved } = useWishlistState();
 
@@ -38,7 +38,7 @@ const Product = (product) => {
   const splitName = name.split(" ");
   const title = splitName[0] + ' ' + splitName[1];
   const twoWords = splitName[2] + '/' + splitName[3];
-
+  
   return (
     product.grid === true ?
       <div>
