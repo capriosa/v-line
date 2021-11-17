@@ -83,16 +83,16 @@ const Layout = ({ children }) => {
         <div className="children">{children}</div>
       </main>
       <footer className="max-w-6xl mx-auto px-6">
-        <div className="py-6 border-t border-gray-100 text-center flex flex-col md:flex-row items-center justify-between">
-          <nav className="flex items-center justify-end space-x-3 md:space-x-6">
+        
+          <div>
             
             <Link href="/terms-of-sale">
               <a className="text-gray-800 hover:text-blue-600 p-1 transition text-sm">
                 Terms of Sale
               </a>
             </Link>
-          </nav>
-        </div>
+          </div>
+        
       </footer>
     </>
   );
