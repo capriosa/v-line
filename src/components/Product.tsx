@@ -122,8 +122,8 @@ const Product = (product) => {
         {activeVariantFile && (
           <Image
             src={activeVariantFile.preview_url}
-            width={600}
-            height={600}
+            width={500}
+            height={500}
             alt={`${activeVariant.name} ${name}`}
             title={`${activeVariant.name} ${name}`}
             className="product-image"
