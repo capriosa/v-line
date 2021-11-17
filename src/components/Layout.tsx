@@ -84,14 +84,14 @@ const Layout = ({ children }) => {
       </main>
       <footer className="max-w-6xl mx-auto px-6">
         
-          <div>
+          <nav className="flex items-center justify-end space-x-3 md:space-x-6">
             
             <Link href="/terms-of-sale">
               <a className="text-gray-800 hover:text-blue-600 p-1 transition text-sm">
                 Terms of Sale
               </a>
             </Link>
-          </div>
+          </nav>
         
       </footer>
     </>
