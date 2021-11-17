@@ -79,11 +79,7 @@ background: #dc9389;
 padding: 24px;
 }
 
-main {
-  display: grid;
-  place-items: center;
-  
-}
+
 
 header {
   width: 100vw;

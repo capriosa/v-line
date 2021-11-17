@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <main>
+    
       <header className="py-6 md:py-12">
         <div className="max-w-9xl mx-auto px-6">
           <div className="flex items-center justify-between">
@@ -78,10 +78,10 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </header>
-      </main>
+      <main>
       
         <div className="children">{children}</div>
-      
+      </main>
       <footer className="max-w-6xl mx-auto px-6">
         <div className="py-6 border-t border-gray-100 text-center flex flex-col md:flex-row items-center justify-between">
           <nav className="flex items-center justify-end space-x-3 md:space-x-6">
